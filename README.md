@@ -1,6 +1,9 @@
 # E-comm
 
 ## Description
+Build the back end for an e-commerce site.
+
+## Talble on Contents
 * Installation
 * Screenshoot 
 * Walkthrough Video
