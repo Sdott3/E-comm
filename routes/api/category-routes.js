@@ -38,7 +38,7 @@ router.get('/:id', (req, res) => {
   })
     .then(dbCategoryData => {
       if(!dbCategoryData) {
-        res.status(404).json({ message: 'No item found with id'});
+        res.status(404).json({ message: 'No category item found with id'});
         return;
       }
       res.json(dbCategoryData);
